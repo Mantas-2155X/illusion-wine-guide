@@ -40,7 +40,7 @@
 #!/bin/bash
 
 export WINEPREFIX="/home/username/.wine_kk"     # Point to your newly created wineprefix
-#export WINEESYNC=1                             # Esync for better performance. May cause crashes or incompatibilities. Uncomment to enable
+#export WINEESYNC=1                             # Slighty better performance, may cause issues. Uncomment to enable
 
 cd "/home/username/Games/Koikatu/"              # cd to your game directory
 
