@@ -1,8 +1,8 @@
 # illusion-wine-guide
 
 **Notes:**
-* Please refrain from using Wine versions 5.7 to 5.9 as they have issues
 * Works with KK, AI, PH, HS2, their launchers found in BetterRepack, dnspy-netcore, dnspy-net472, sb3utilitygui
+* Please refrain from using Wine versions 5.7 to 5.9 as they have issues
 * Does not work on Mac. Just buy a PC and don't pay such companies which don't deserve your money
 
 **Required packages:**
