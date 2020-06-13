@@ -4,7 +4,7 @@
 * Works with KK, AI, EC, PH, HS, HS2, their launchers found in BetterRepack, dnSpy, SB3UtilityGUI
 * Please refrain from using Wine versions 5.7 to 5.9 as they have issues
 * Does not work on Mac. Just buy a PC and don't pay such companies which don't deserve your money
-
+* If BepInEx ships with `version.dll` and your game does not run, rename it to `winhttp.dll`. If it still does not work, get the #197 confirmed working build from: https://builds.bepis.io/projects/bepinex_be
 **Required packages:**
 * `winetricks`      -- Helper to modify wineprefixes
 * `winehq-staging`  -- Staging for better performance
@@ -24,6 +24,7 @@
 * Configure the wineprefix by running `winecfg` in the same terminal
   * In the 'Applications' tab change the windows version to 'Windows 7'
   * In the 'Libraries' tab type 'winhttp' (without quotes) and click 'Add'
+  * In the 'Libraries' tab type 'version' (without quotes) and click 'Add'
   * Set the new added values to 'native,builtin' by clicking 'Edit'
   * Apply & OK
 * Disable WPF hardware acceleration to prevent graphical glitches with launchers, dnspy
