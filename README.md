@@ -30,7 +30,7 @@
   * Apply & OK
 * Disable WPF hardware acceleration to prevent graphical glitches with launchers, dnspy
   * Type `wine regedit` in the same terminal
-  * Navigate to `HKEY_CURRENT_USER\SOFTWARE\Microsoft\Avalon.Graphics\`
+  * Navigate to `HKEY_CURRENT_USER\SOFTWARE\Microsoft\Avalon.Graphics\` (create if doesn't exist)
   * Right click the Key and create a new DWORD `DisableHWAcceleration`
   * Double click the new added value and set it to 1
   * Close `regedit`
