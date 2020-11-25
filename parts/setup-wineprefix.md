@@ -8,7 +8,7 @@ Creating a new wineprefix configured best for [compatible apps/games](https://gi
 * Configure the wineprefix by running `winecfg` in the same terminal
   * In the 'Applications' tab change the windows version to 'Windows 7'
   * In the 'Libraries' tab type 'winhttp' (without quotes) and click 'Add'
-  * Set the new added values to 'native,builtin' by clicking 'Edit'
+  * Set the new added value to 'native,builtin' by clicking 'Edit'
   * Apply & OK
 * Disable WPF hardware acceleration to prevent graphical glitches with launchers, dnspy
   * Type `wine regedit` in the same terminal
