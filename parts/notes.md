@@ -1,3 +1,7 @@
+**Issues:**
+* Can't move camera in the game/studio
+  * Seems to be an issue with some Wine versions, downgrade/upgrade your Wine or use [wine-tkg](https://github.com/Mantas-2155X/illusion-wine-guide/blob/master/parts/packages.md).
+
 **Compatible OS:**
 * Linux (all features)
 * MacOS (no DXVK = bad compatibility, performance)
