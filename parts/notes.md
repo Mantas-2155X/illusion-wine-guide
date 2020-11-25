@@ -27,4 +27,4 @@
 * Can't move camera in the game/studio
   * Seems to be an issue with some Wine versions, downgrade/upgrade your Wine or use [wine-tkg](https://github.com/Mantas-2155X/illusion-wine-guide/blob/master/parts/packages.md).
 * dnSpy crashes / IllusionLauncher is fully black
-  * [Disable WPF hardware acceleration](https://github.com/Mantas-2155X/illusion-wine-guide/blob/master/parts/setup-wineprefix.md)
+  * [Disable WPF hardware acceleration](https://github.com/Mantas-2155X/illusion-wine-guide/blob/master/parts/setup-wineprefix.md) step 3.
