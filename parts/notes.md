@@ -1,5 +1,5 @@
 **Compatible OS:**
-* Linux (all features)
+* Linux (all features),
 * MacOS (no DXVK = bad compatibility, performance)
 
 **Confirmed working games:**
@@ -17,14 +17,14 @@
 * [SB3Utility](https://github.com/enimaroah/SB3Utility)
 
 **Buggy Wine versions to avoid:**
-* Wine 5.7
-* Wine 5.8
-* Wine 5.9
-* Wine 5.19
+* Wine 5.7,
+* Wine 5.8,
+* Wine 5.9,
+* Wine 5.19,
 * Wine 5.22(?)
 
 **Issues:**
-* Can't move camera in the game/studio
+* Can't move camera in the game/studio!
   * Seems to be an issue with some Wine versions, downgrade/upgrade your Wine or use [wine-tkg](https://github.com/Mantas-2155X/illusion-wine-guide/blob/master/parts/packages.md).
-* dnSpy crashes / IllusionLauncher is fully black
-  * [Disable WPF hardware acceleration](https://github.com/Mantas-2155X/illusion-wine-guide/blob/master/parts/setup-wineprefix.md) step 3.
+* dnSpy crashes / IllusionLauncher is fully black!
+  * [Disable WPF hardware acceleration](https://github.com/Mantas-2155X/illusion-wine-guide/blob/master/parts/setup-wineprefix.md) found in step 3.
