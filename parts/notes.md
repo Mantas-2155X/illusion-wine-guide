@@ -21,7 +21,7 @@
 * Wine 5.8,
 * Wine 5.9,
 * Wine 5.19,
-* Wine 5.22(?)
+* Wine 5.22
 
 **Issues:**
 * Can't move camera in the game/studio!
