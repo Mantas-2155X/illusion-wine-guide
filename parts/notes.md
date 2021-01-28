@@ -5,6 +5,7 @@
 **Confirmed working games:**
 * AI Syoujo,
 * Emotion Creators,
+* Harem Mate,
 * Honey Select 1,
 * Honey Select 2,
 * Koikatsu, 
