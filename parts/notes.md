@@ -9,6 +9,7 @@
 * Honey Select 1,
 * Honey Select 2,
 * Koikatsu, 
+* Koikatsu Sunshine,
 * PlayClub,
 * PlayHome
 
