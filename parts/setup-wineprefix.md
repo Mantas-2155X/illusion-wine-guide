@@ -9,3 +9,5 @@ Creating a new wineprefix configured best for [compatible apps/games](https://gi
   * Type `wine reg add "HKEY_CURRENT_USER\Software\Wine\DllOverrides" /v winhttp /t reg_sz /d native,builtin /f`in the terminal
 * Disable WPF hardware acceleration to prevent graphical glitches with launchers, dnspy
   * Type `wine reg add "HKEY_CURRENT_USER\SOFTWARE\Microsoft\Avalon.Graphics" /v DisableHWAcceleration /t REG_DWORD /d 1 /f` in the terminal
+* Prevent possible mouse focus issues when alt+tab out of window
+  * Type `wine reg ADD 'HKEY_CURRENT_USER\Software\Wine\X11 Driver' /v UseTakeFocus /d 'N' /f` in the terminal
