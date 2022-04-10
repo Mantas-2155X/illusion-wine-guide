@@ -3,7 +3,7 @@ Creating a new wineprefix configured best for [compatible apps/games](https://gi
 **Steps:**
 * Create, set up the wineprefix by running the following in terminal:
   * `export WINEPREFIX="~/.wine_custom"` (path to your new wineprefix, change as needed)
-  * `winetricks corefonts dxvk dotnet472 dotnet35`    (skip `dxvk` if using MacOS)
+  * `winetricks corefonts dxvk ole32 dotnet35 dotnet472`    (skip `dxvk` if using MacOS)
   * If asked to install mono, gecko, click no
 * Allow the native winhttp wrapper be loaded
   * Type `wine reg add "HKEY_CURRENT_USER\Software\Wine\DllOverrides" /v winhttp /t reg_sz /d native,builtin /f`in the terminal
