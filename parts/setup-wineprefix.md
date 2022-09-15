@@ -2,7 +2,7 @@ Creating a new wineprefix configured best for [compatible apps/games](https://gi
 
 **Steps:**
 * Create, set up the wineprefix by running the following in terminal:
-  * `export WINEPREFIX="~/.wine_custom"` (path to your new wineprefix, change as needed)
+  * `export WINEPREFIX="/home/you/.wine_custom"` (path to your new wineprefix, change as needed.It needs to be the absolute path, can't use ~)
   * `winetricks corefonts dxvk ole32`    (skip `dxvk` if using MacOS)
   * `winetricks -q dotnet35`
   * `winetricks -q dotnet472`
