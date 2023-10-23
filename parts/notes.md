@@ -1,6 +1,6 @@
 **Compatible OS:**
 * Linux (all features),
-* MacOS (no DXVK = bad compatibility, performance)
+* MacOS (if DXVK is not available, low performance)
 
 **Confirmed working games:**
 * AI Syoujo,
