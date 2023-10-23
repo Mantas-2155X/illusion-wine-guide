@@ -3,7 +3,7 @@ Creating a new wineprefix configured best for [compatible apps/games](https://gi
 **Steps:**
 * Create, set up the wineprefix by running the following in terminal:
   * `export WINEPREFIX="/home/you/.wine_custom"` (path to your new wineprefix, change as needed.It needs to be the absolute path, can't use ~)
-  * `winetricks corefonts dxvk ole32`    (skip `dxvk` if using MacOS)
+  * `winetricks corefonts dxvk ole32`    (skip `dxvk` if not available on your OS)
   * `winetricks -q dotnet35`      (might cause HF Patch to fail to install [#14](https://github.com/Mantas-2155X/illusion-wine-guide/issues/14]))
   * `winetricks -q dotnet472`      (might cause HF Patch to fail to install [#14](https://github.com/Mantas-2155X/illusion-wine-guide/issues/14]))
   * If asked to install mono, gecko, click no
