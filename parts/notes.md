@@ -32,3 +32,4 @@
   * [Disable WPF hardware acceleration](https://github.com/Mantas-2155X/illusion-wine-guide/blob/master/parts/setup-wineprefix.md) found in step 3.
 * Game crashes / freezes after returning from file dialogs
   * [Disabling fullscreen](https://github.com/Mantas-2155X/illusion-wine-guide/issues/13) might resolve it 
+* Game crashes with [X errors BadWindow](https://github.com/Mantas-2155X/illusion-wine-guide/issues/4) try setting all/most winetricks installed dlls as native, builtin in winecfg
